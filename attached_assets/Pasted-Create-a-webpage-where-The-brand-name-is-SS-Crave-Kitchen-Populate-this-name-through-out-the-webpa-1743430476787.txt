@@ -1,0 +1,54 @@
+Create a webpage where The brand name is "SS Crave Kitchen" Populate this name through out the webpage remember this name, 
+Initially a simple navbar should be consist with sections as a logo with brand name on the left side and right side "About us", "Menu" and "contact us"
+on clicking on the above these it should navigate to the below sections on the same home page, make sure this functionality works fine.
+
+below to this the hero section, where a carousel will be sliding with the delicious "HD images of Food" include some biryani, starters and other delicious food items 
+and make a good animation sliding carousel slide bar the motion of the slides should be very good and smooth user feeling 
+
+Below to the hero section, a welcome message with good shadow background image and the highlighted text, include a good text message as a welcome 
+so that the user feels good about the restaurent and their tastes of food items etc, 
+
+below to this section About us section, Place 3 to 4 images of the restaurent which i will replace it later with my own images and below to this 
+images a few lines of text, like what we are, who we are ,and what the dedication we give to serve to our customers, include the absolute text's which 
+should hit the user reading dopamine 
+
+down to this section, the Menu section where, categorize the menu boardly into 7 types,
+1. Starters - make it side by side two sections so that on clicking veg, the veg items should be displayed as well on clicking beside non veg items they should be displayed 
+	The veg items are, Veg Manchuria, Veg 65, chilli veg, gobhi manchuria, gobi 65, panner manchuria, panner 65, chilli panner, chilli garlic panner, schezwan panner, panner majestic,
+	baby corn manchuria, baby corn 65, chilli baby corn, baby corn majestic, mushroom manchuria, mushroom 65, chilli mushroom
+	The Non Veg items are, egg manchuria, egg 65, chilli egg, egg roast, egg schezwan, chicken manchuria, chicken 65, chilli chicken, chicken mjestic, chicken lollipops, chicken drumsticks,
+	lemon chiken dragon chicken, pepper chicken, ginger chicken, garlic chicken, garlic chicken, bangla kodi, appollo fish, fish manchuria, fish 65, chili fish, prawns manchuria, prawns 65, loose prawns.
+
+2. Chinese Rice/Noodles- It includes VEG Rice/Noodles:the subsection includes Veg Rice/Noodles, veg soft Rice/noodles, veg schezwani rice/Noodles, veg Manchuria rice/noodles, veg chilli garlic rice/noodles, paneer schezwan rice/noodles, kajupaneer rice/noodles, mushroom rice/noodles.
+			 next EggRice/noodles: the subsection inclues EggRice/noodles, Egg softRice/Noodles, Egg Schewzan rice/noodles, DOB Egg Rice/Noodles, Egg Chilli Garlic Rice/Noodles
+			 next Chicken Rice/Noodles: the subsection includes  Chicken friec Rice/Noodles, chicken soft rice/noodles, DOB Egg chkn Rice/noodles, DOB chkn Rice/noodles, chkn schewzan rice/noodles, chilligarlic chkn rice/noodles, mixed non-veg rice/noodles.
+
+3. Roti Curries- it includes Roti: Chapati, phulka, parota.
+		 next VegCurries: Kadai veg, methi chaman, mixed veg curry, kadai panner, panner butter masala, kaju panner, kaju curry, mushroom curry,
+		 next Chicken Curries: Chicken curry, Telangana chicken, andra chicken, butter chicken, kadai chicken, kaju chicken, chicken masala, chicken moghlai, chicken afgani.
+		 next sea Food curries: Fish curry, Fish masala, prawn curry, telangana prawn, andhra prawns.
+
+
+4. Biryani- Veg Biryani: veg biryani, panner biryani, kaju biryani
+	   Egg Biryani: Egg Biryani.
+	   Nonveg Biryani: Chicken biryani, chicken fry piece biryani, chicken 65 biryani, moghilai biryani, lollipop biryani.
+	   sea food biryani: Fish Biryani, Prawn Biryani.
+	   Extra Rice/Piece: Extra Biryani rice, Extra chicken dum piece.
+
+5. Combo Offers- it includes Veg Combo section:subsection includes Panner/Mushroom Manchuria + mojito,  Panner/Mushroom 65+Mojito,  Panner/Mushroom Biryani,  Panner/Mushroom Manchurian,  Panner/Mushroom 65, Panner(manchuria/65)Mushroom + (manchuria/65)+ Biryani(Panner/Mushroom)+vanilla, Ice cream/mojito, veg Manchurian fried, Rice/noodle(full)+mojito, panner/mushroom fried rice/noodles+mojito.
+		 next it inclues Chicken combo section:the subsection includes Chicken(manchurian/65)+mojito, Chicken(manchurian/65)+Chicken Biryani full, Chicken(manchurian/65)+Chicken Biryani full+ice cream vanilla/mojito, chicken biryani full+paneer/mushroom biryani full
+		 next mix combo section: the subsection includes Chicken Fried rice/noodles(full)+paneer/Mushroom fried rice/noodles+mojito.
+
+Below to this section a Contact us section with good design include necessary icons, and animations reqruied 
+i will provide you with the contact number and the address place it their and with the eamil id and the google map location so everything which i provide
+include it their 
+Phone number : 6309479845, 7995404162
+email id : sscravekitchen@gmail.com
+address in text form : 16-11-658, Gaddiannaram Rd, near Pragathi Dregee Collage, Dilsukhnagar, Hyderabad, Telangana 500060
+a clickable link of google maps location : https://maps.app.goo.gl/RFbSJTeokcb7dw3a9
+
+Add a right side section a simple form, on submitting it the details should be sent to the predefined mail id :sscravekitchen@gmail.com
+
+Final section a footer, include everything which is needed such as social media links etc.
+
+
