@@ -28,6 +28,24 @@ const CAROUSEL_SLIDES = [
     subtitle: "Taste our delicious Rice and Noodle preparations",
     ctaText: "View Chinese Menu",
     ctaLink: "#menu"
+  },
+  {
+    id: 4,
+    image: "https://images.unsplash.com/photo-1585937421612-70a008356c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+    alt: "Pizza and Burger Special",
+    title: "Pizza & Burger Special",
+    subtitle: "Indulge in our perfectly crafted burgers and pizzas",
+    ctaText: "Try Our Specials",
+    ctaLink: "#menu"
+  },
+  {
+    id: 5,
+    image: "https://images.unsplash.com/photo-1542384557-0824d90731ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+    alt: "Premium Beverages",
+    title: "Refreshing Beverages",
+    subtitle: "Complete your meal with our selection of drinks",
+    ctaText: "View Beverages",
+    ctaLink: "#menu"
   }
 ];
 
