@@ -255,6 +255,101 @@ export default function MenuSection() {
               </div>
             </div>
           )}
+          
+          {/* Pizza/Burger/Sandwich Section */}
+          {activeCategory === "pbs" && (
+            <div className="menu-category">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                  <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Cup Pizza</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between"><span>Cheese Cup Pizza</span> <span className="text-primary font-semibold">₹180</span></li>
+                    <li className="flex justify-between"><span>Veg Cup Pizza</span> <span className="text-primary font-semibold">₹190</span></li>
+                    <li className="flex justify-between"><span>Paneer Cup Pizza</span> <span className="text-primary font-semibold">₹210</span></li>
+                    <li className="flex justify-between"><span>Chicken Cup Pizza</span> <span className="text-primary font-semibold">₹220</span></li>
+                    <li className="flex justify-between"><span>Prawn Cup Pizza</span> <span className="text-primary font-semibold">₹240</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Burger</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between"><span>Veg Cheese Burger</span> <span className="text-primary font-semibold">₹150</span></li>
+                    <li className="flex justify-between"><span>Veg Double Cheese Burger</span> <span className="text-primary font-semibold">₹170</span></li>
+                    <li className="flex justify-between"><span>Egg Cheese Burger</span> <span className="text-primary font-semibold">₹160</span></li>
+                    <li className="flex justify-between"><span>Egg Double Cheese Burger</span> <span className="text-primary font-semibold">₹180</span></li>
+                    <li className="flex justify-between"><span>Chicken Cheese Burger</span> <span className="text-primary font-semibold">₹180</span></li>
+                    <li className="flex justify-between"><span>Chicken Double Cheese Burger</span> <span className="text-primary font-semibold">₹200</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Sandwich</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between"><span>Veg Sandwich</span> <span className="text-primary font-semibold">₹120</span></li>
+                    <li className="flex justify-between"><span>Veg Cheese Sandwich</span> <span className="text-primary font-semibold">₹140</span></li>
+                    <li className="flex justify-between"><span>Egg Sandwich</span> <span className="text-primary font-semibold">₹130</span></li>
+                    <li className="flex justify-between"><span>Egg Cheese Sandwich</span> <span className="text-primary font-semibold">₹150</span></li>
+                    <li className="flex justify-between"><span>Chicken Sandwich</span> <span className="text-primary font-semibold">₹160</span></li>
+                    <li className="flex justify-between"><span>Chicken Cheese Sandwich</span> <span className="text-primary font-semibold">₹180</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          )}
+          
+          {/* Beverages Section */}
+          {activeCategory === "beverages" && (
+            <div className="menu-category">
+              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                <div>
+                  <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Milkshakes</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between"><span>Oreo Shake</span> <span className="text-primary font-semibold">₹120</span></li>
+                    <li className="flex justify-between"><span>Chocolate Shake</span> <span className="text-primary font-semibold">₹110</span></li>
+                    <li className="flex justify-between"><span>KitKat Shake</span> <span className="text-primary font-semibold">₹130</span></li>
+                    <li className="flex justify-between"><span>Butterscotch Shake</span> <span className="text-primary font-semibold">₹110</span></li>
+                    <li className="flex justify-between"><span>Mango Shake</span> <span className="text-primary font-semibold">₹100</span></li>
+                    <li className="flex justify-between"><span>Dryfruit Shake</span> <span className="text-primary font-semibold">₹140</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Mojito</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between"><span>Pineapple Mojito</span> <span className="text-primary font-semibold">₹90</span></li>
+                    <li className="flex justify-between"><span>Strawberry Mojito</span> <span className="text-primary font-semibold">₹90</span></li>
+                    <li className="flex justify-between"><span>Watermelon Mojito</span> <span className="text-primary font-semibold">₹80</span></li>
+                    <li className="flex justify-between"><span>Green Apple Mojito</span> <span className="text-primary font-semibold">₹90</span></li>
+                    <li className="flex justify-between"><span>Cranberry Mojito</span> <span className="text-primary font-semibold">₹90</span></li>
+                    <li className="flex justify-between"><span>Virgin Mojito</span> <span className="text-primary font-semibold">₹80</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Lassis</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between"><span>Sweet Lassi</span> <span className="text-primary font-semibold">₹80</span></li>
+                    <li className="flex justify-between"><span>Rose Lassi</span> <span className="text-primary font-semibold">₹90</span></li>
+                    <li className="flex justify-between"><span>Chocolate Lassi</span> <span className="text-primary font-semibold">₹100</span></li>
+                    <li className="flex justify-between"><span>Dry Fruit Lassi</span> <span className="text-primary font-semibold">₹120</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Ice Creams</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between"><span>Vanilla</span> <span className="text-primary font-semibold">₹70</span></li>
+                    <li className="flex justify-between"><span>Butterscotch</span> <span className="text-primary font-semibold">₹80</span></li>
+                    <li className="flex justify-between"><span>Chocolate</span> <span className="text-primary font-semibold">₹80</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Drinks</h3>
+                  <ul className="space-y-3">
+                    <li className="flex justify-between"><span>Cooldrinks</span> <span className="text-primary font-semibold">₹40</span></li>
+                    <li className="flex justify-between"><span>Water Bottle 500ml</span> <span className="text-primary font-semibold">₹20</span></li>
+                    <li className="flex justify-between"><span>Water Bottle 1L</span> <span className="text-primary font-semibold">₹30</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>

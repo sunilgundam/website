@@ -1,11 +1,13 @@
-export type MenuCategory = "starters" | "chinese" | "roti" | "biryani" | "combo";
+export type MenuCategory = "starters" | "chinese" | "roti" | "biryani" | "combo" | "pbs" | "beverages";
 
 export const MenuCategories: Record<MenuCategory, string> = {
   starters: "Starters",
   chinese: "Chinese Rice/Noodles",
   roti: "Roti Curries",
   biryani: "Biryani",
-  combo: "Combo Offers"
+  combo: "Combo Offers",
+  pbs: "Pizza/Burger/Sandwich",
+  beverages: "Beverages"
 };
 
 export interface ContactFormData {
