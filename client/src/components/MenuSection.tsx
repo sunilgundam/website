@@ -1,8 +1,31 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MenuCategory, MenuCategories } from "@/lib/types";
 
 export default function MenuSection() {
   const [activeCategory, setActiveCategory] = useState<MenuCategory>("starters");
+
+  // useEffect to remove prices with DOM manipulation
+  useEffect(() => {
+    // Process will happen after initial render
+    const processMenuItems = () => {
+      const menuElements = document.querySelectorAll('.menu-category li');
+      menuElements.forEach(item => {
+        // Remove the price span if it exists
+        const priceSpan = item.querySelector('span.text-primary');
+        if (priceSpan) {
+          priceSpan.remove();
+        }
+        
+        // Remove the justify-between class
+        if (item.classList.contains('flex') && item.classList.contains('justify-between')) {
+          item.classList.remove('justify-between');
+        }
+      });
+    };
+    
+    // Small delay to ensure DOM is fully updated
+    setTimeout(processMenuItems, 100);
+  }, [activeCategory]); // Re-run when category changes
 
   const handleCategoryClick = (category: MenuCategory) => {
     setActiveCategory(category);
@@ -20,7 +43,7 @@ export default function MenuSection() {
               key={category}
               onClick={() => handleCategoryClick(category as MenuCategory)}
               className={`py-2 px-4 rounded-t-lg mx-1 mb-2 font-poppins transition-colors duration-300 ${
-                activeCategory === category ? 'bg-primary text-white' : 'bg-neutral-900 text-white'
+                activeCategory === category ? 'bg-[#F0C808] text-neutral-900' : 'bg-neutral-900 text-white'
               }`}
             >
               {MenuCategories[category as MenuCategory]}
@@ -37,7 +60,7 @@ export default function MenuSection() {
                 <div className="w-full md:w-1/2 md:pr-6 mb-6 md:mb-0">
                   <h3 className="text-2xl font-playfair font-bold mb-4 text-primary pb-2 border-b border-neutral-200">Veg Starters</h3>
                   <ul className="space-y-3">
-                    <li className="flex justify-between"><span>Veg Manchuria</span> <span className="text-primary font-semibold">₹220</span></li>
+                    <li><span>Veg Manchuria</span></li>
                     <li className="flex justify-between"><span>Veg 65</span> <span className="text-primary font-semibold">₹220</span></li>
                     <li className="flex justify-between"><span>Chilli Veg</span> <span className="text-primary font-semibold">₹220</span></li>
                     <li className="flex justify-between"><span>Gobi Manchuria</span> <span className="text-primary font-semibold">₹230</span></li>

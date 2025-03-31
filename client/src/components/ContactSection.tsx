@@ -133,7 +133,7 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold mb-1">Opening Hours</h4>
                     <p className="text-neutral-700">
-                      Monday - Sunday: 11:00 AM - 11:00 PM
+                      Monday - Sunday: 11:30 AM - 11:00 PM
                     </p>
                   </div>
                 </div>
