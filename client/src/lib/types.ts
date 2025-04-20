@@ -6,7 +6,7 @@ export const MenuCategories: Record<MenuCategory, string> = {
   roti: "Roti Curries",
   biryani: "Biryani",
   combo: "Combo Offers",
-  pbs: "Pizza/Burger/Sandwich",
+  //pbs: "Pizza/Burger/Sandwich", uncomment when u want to display burger/sandwiches
   beverages: "Beverages"
 };
 

@@ -22,7 +22,7 @@ const CAROUSEL_SLIDES = [
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1563379091-76af3759331c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+    image: "https://images.unsplash.com/photo-1559847844-5315695dadae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
     alt: "Chinese Specialties",
     title: "Chinese Specialties",
     subtitle: "Taste our delicious Rice and Noodle preparations",
@@ -31,9 +31,9 @@ const CAROUSEL_SLIDES = [
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1585937421612-70a008356c36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80",
+    image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641",
     alt: "Pizza and Burger Special",
-    title: "Pizza & Burger Special",
+    title: "Naan,Parotta & CurrySpecials", //modity to pizza burger when u want 
     subtitle: "Indulge in our perfectly crafted burgers and pizzas",
     ctaText: "Try Our Specials",
     ctaLink: "#menu"
@@ -104,7 +104,10 @@ export default function HeroCarousel() {
       <div className="relative overflow-hidden h-[70vh] w-full">
         <div 
           className="flex h-full transition-transform duration-500 ease-in-out"
-          style={{ transform: `translateX(-${currentSlide * 100}%)`, width: `${totalSlides * 100}%` }}
+          style={{ 
+            transform: `translateX(-${currentSlide * (100 / totalSlides)}%)`,
+            width: `${totalSlides * 100}%`
+          }}
         >
           {CAROUSEL_SLIDES.map((slide) => (
             <div 
@@ -116,6 +119,7 @@ export default function HeroCarousel() {
                 src={slide.image} 
                 alt={slide.alt} 
                 className="w-full h-full object-cover"
+                loading="eager"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                 <div className="text-center px-4">
