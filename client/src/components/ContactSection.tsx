@@ -143,7 +143,7 @@ export default function ContactSection() {
                 <h4 className="font-semibold mb-4">Find Us On Map</h4>
                 <div className="w-full h-64 bg-neutral-200 rounded-lg overflow-hidden">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.4843148873224!2d78.5245!3d17.3698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9900000001%3A0x500000000000!2sDilsukhnagar%2C%20Hyderabad%2C%20Telangana%20500060!5e0!3m2!1sen!2sin!4v1642428300000!5m2!1sen!2sin" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.63115112621!2d78.5184815!3d17.366644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9956b4af9911%3A0x44da773d5eeefa37!2sThe%20Dark%20House%20Inn%20Restaurant!5e0!3m2!1sen!2sin!4v1714134000000!5m2!1sen!2sin" 
                     width="100%" 
                     height="100%" 
                     style={{ border: 0 }} 
